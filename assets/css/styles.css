@@ -1,0 +1,162 @@
+/* Resetting default margin, padding, and text alignment for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styling for the entire body of the web page */
+body {
+    background-color: #bebebe;
+    /* Setting the background color */
+    font-size: 16px;
+    /* Setting the base font size */
+    font-weight: 400;
+    /* Setting the font weight */
+    line-height: 1.5;
+    /* Setting the line height for text */
+    color: #333;
+    /* Setting the text color */
+}
+
+/* Styling for the tasks container */
+.tasks-container {
+    display: flex;
+    /* Using flexbox for layout */
+    flex-direction: column;
+    /* Stacking elements vertically */
+    align-items: center;
+    /* Centering items horizontally */
+    justify-content: center;
+    /* Centering items vertically */
+    padding: 2px;
+    /* Adding padding to the container */
+}
+
+/* Styling for the new task input field */
+#new-task-input {
+    border-radius: 15px;
+    /* Adding rounded corners */
+    border: none;
+    /* Removing the border */
+    padding: 0.3rem;
+    /* Adding padding */
+}
+
+/* Styling for the add task button */
+#add-task-button {
+    width: 100px;
+    /* Setting button width */
+    margin: 6px;
+    /* Adding margin around the button */
+    border-radius: 25px;
+    /* Adding rounded corners */
+    border: none;
+    /* Removing the border */
+    color: black;
+    /* Setting text color */
+    background-color: darkorange;
+    /* Setting background color */
+    padding: 0.3rem;
+    /* Adding padding */
+    font-weight: bold;
+    /* Making the text bold */
+}
+
+/* Styling for the add task button on hover */
+#add-task-button:hover {
+    color: darkorange;
+    /* Text color change on hover */
+    background-color: black;
+    /* Background color change on hover */
+    cursor: pointer;
+    /* Changing cursor to pointer on hover */
+}
+
+/* Styling for the tasks list */
+#tasks-list {
+    margin-top: 5px;
+    /* Adding margin at the top */
+}
+
+/* Styling for the unordered list */
+ul {
+    list-style-type: none;
+    /* Removing list bullets */
+    padding: 0;
+    /* Removing padding for the list */
+    font-weight: bold;
+    /* Making list items bold */
+}
+
+/* Styling for each list item */
+li {
+    text-align: center;
+    /* Centering text within list items */
+    background-color: white;
+    /* Setting a background color */
+    display: flex;
+    /* Using flexbox for layout */
+    align-items: center;
+    /* Centering items vertically */
+    justify-content: flex-start;
+    /* Aligning content to the left */
+    margin-bottom: 10px;
+    /* Adding margin at the bottom */
+    padding: 5px;
+    /* Adding padding */
+    border-radius: 4px;
+    /* Adding rounded corners */
+    width: 300px;
+    /* Setting a fixed width */
+}
+
+/* Styling for spans inside list items */
+li span {
+    padding: 2px;
+    /* Adding padding */
+}
+
+/* Styling for spans and buttons inside list items */
+li span,
+li button {
+    margin: 3px;
+    /* Adding margin around spans and buttons */
+}
+
+/* Styling for completed tasks */
+
+
+
+
+li span {
+    padding: 2px;
+}
+
+li span,
+li button {
+    margin: 3px;
+
+}
+
+.completed {
+    background-color: rgb(27, 182, 27);
+    border-radius: 7px;
+    padding: 2px;
+
+}
+
+.delete-button {
+    background-color: red;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}

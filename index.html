@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- This line defines the document type as HTML -->
+<html lang="en">
+    <!-- Start of the HTML document with the 'en' language attribute -->
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Defines the character encoding of the document as UTF-8 -->
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!-- Meta tag for setting the viewport properties -->
+        <title>.TODO List</title>
+        <!-- Sets the title of the web page -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Link to an external CSS stylesheet -->
+    </head>
+    <body>
+        <h1>.TODO List</h1>
+        <!-- Header with the title of the page -->
+
+        <div class="tasks-container">
+            <input
+                id="new-task-input"
+                type="text"
+                placeholder="Type a New Task..."
+            />
+            <!-- Input field for entering a new task with an initial value -->
+            <button id="add-task-button">Add</button>
+            <!-- Button for adding a new task -->
+            <ul id="tasks-list"></ul>
+            <!-- Unordered list element to display tasks -->
+        </div>
+        <script src="./assets/js/main.js"></script>
+        <!-- Link to an external JavaScript file -->
+    </body>
+</html>
